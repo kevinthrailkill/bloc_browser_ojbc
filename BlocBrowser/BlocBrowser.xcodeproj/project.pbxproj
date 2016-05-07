@@ -1,0 +1,509 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		19D57F801CDE780500A6622C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 19D57F7F1CDE780500A6622C /* main.m */; };
+		19D57F831CDE780500A6622C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 19D57F821CDE780500A6622C /* AppDelegate.m */; };
+		19D57F861CDE780500A6622C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19D57F851CDE780500A6622C /* ViewController.m */; };
+		19D57F8B1CDE780500A6622C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19D57F8A1CDE780500A6622C /* Assets.xcassets */; };
+		19D57F8E1CDE780500A6622C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19D57F8C1CDE780500A6622C /* LaunchScreen.storyboard */; };
+		19D57F991CDE780500A6622C /* BlocBrowserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 19D57F981CDE780500A6622C /* BlocBrowserTests.m */; };
+		19D57FA41CDE780500A6622C /* BlocBrowserUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 19D57FA31CDE780500A6622C /* BlocBrowserUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		19D57F951CDE780500A6622C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 19D57F731CDE780400A6622C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19D57F7A1CDE780400A6622C;
+			remoteInfo = BlocBrowser;
+		};
+		19D57FA01CDE780500A6622C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 19D57F731CDE780400A6622C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19D57F7A1CDE780400A6622C;
+			remoteInfo = BlocBrowser;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		19D57F7B1CDE780400A6622C /* BlocBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlocBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		19D57F7F1CDE780500A6622C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		19D57F811CDE780500A6622C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		19D57F821CDE780500A6622C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		19D57F841CDE780500A6622C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		19D57F851CDE780500A6622C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		19D57F8A1CDE780500A6622C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		19D57F8D1CDE780500A6622C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		19D57F8F1CDE780500A6622C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19D57F941CDE780500A6622C /* BlocBrowserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlocBrowserTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		19D57F981CDE780500A6622C /* BlocBrowserTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlocBrowserTests.m; sourceTree = "<group>"; };
+		19D57F9A1CDE780500A6622C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19D57F9F1CDE780500A6622C /* BlocBrowserUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlocBrowserUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		19D57FA31CDE780500A6622C /* BlocBrowserUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlocBrowserUITests.m; sourceTree = "<group>"; };
+		19D57FA51CDE780500A6622C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		19D57F781CDE780400A6622C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19D57F911CDE780500A6622C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19D57F9C1CDE780500A6622C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19D57F721CDE780400A6622C = {
+			isa = PBXGroup;
+			children = (
+				19D57F7D1CDE780400A6622C /* BlocBrowser */,
+				19D57F971CDE780500A6622C /* BlocBrowserTests */,
+				19D57FA21CDE780500A6622C /* BlocBrowserUITests */,
+				19D57F7C1CDE780400A6622C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		19D57F7C1CDE780400A6622C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				19D57F7B1CDE780400A6622C /* BlocBrowser.app */,
+				19D57F941CDE780500A6622C /* BlocBrowserTests.xctest */,
+				19D57F9F1CDE780500A6622C /* BlocBrowserUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		19D57F7D1CDE780400A6622C /* BlocBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				19D57F811CDE780500A6622C /* AppDelegate.h */,
+				19D57F821CDE780500A6622C /* AppDelegate.m */,
+				19D57F841CDE780500A6622C /* ViewController.h */,
+				19D57F851CDE780500A6622C /* ViewController.m */,
+				19D57F8A1CDE780500A6622C /* Assets.xcassets */,
+				19D57F8C1CDE780500A6622C /* LaunchScreen.storyboard */,
+				19D57F8F1CDE780500A6622C /* Info.plist */,
+				19D57F7E1CDE780500A6622C /* Supporting Files */,
+			);
+			path = BlocBrowser;
+			sourceTree = "<group>";
+		};
+		19D57F7E1CDE780500A6622C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				19D57F7F1CDE780500A6622C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		19D57F971CDE780500A6622C /* BlocBrowserTests */ = {
+			isa = PBXGroup;
+			children = (
+				19D57F981CDE780500A6622C /* BlocBrowserTests.m */,
+				19D57F9A1CDE780500A6622C /* Info.plist */,
+			);
+			path = BlocBrowserTests;
+			sourceTree = "<group>";
+		};
+		19D57FA21CDE780500A6622C /* BlocBrowserUITests */ = {
+			isa = PBXGroup;
+			children = (
+				19D57FA31CDE780500A6622C /* BlocBrowserUITests.m */,
+				19D57FA51CDE780500A6622C /* Info.plist */,
+			);
+			path = BlocBrowserUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		19D57F7A1CDE780400A6622C /* BlocBrowser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19D57FA81CDE780500A6622C /* Build configuration list for PBXNativeTarget "BlocBrowser" */;
+			buildPhases = (
+				19D57F771CDE780400A6622C /* Sources */,
+				19D57F781CDE780400A6622C /* Frameworks */,
+				19D57F791CDE780400A6622C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BlocBrowser;
+			productName = BlocBrowser;
+			productReference = 19D57F7B1CDE780400A6622C /* BlocBrowser.app */;
+			productType = "com.apple.product-type.application";
+		};
+		19D57F931CDE780500A6622C /* BlocBrowserTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19D57FAB1CDE780500A6622C /* Build configuration list for PBXNativeTarget "BlocBrowserTests" */;
+			buildPhases = (
+				19D57F901CDE780500A6622C /* Sources */,
+				19D57F911CDE780500A6622C /* Frameworks */,
+				19D57F921CDE780500A6622C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				19D57F961CDE780500A6622C /* PBXTargetDependency */,
+			);
+			name = BlocBrowserTests;
+			productName = BlocBrowserTests;
+			productReference = 19D57F941CDE780500A6622C /* BlocBrowserTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		19D57F9E1CDE780500A6622C /* BlocBrowserUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19D57FAE1CDE780500A6622C /* Build configuration list for PBXNativeTarget "BlocBrowserUITests" */;
+			buildPhases = (
+				19D57F9B1CDE780500A6622C /* Sources */,
+				19D57F9C1CDE780500A6622C /* Frameworks */,
+				19D57F9D1CDE780500A6622C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				19D57FA11CDE780500A6622C /* PBXTargetDependency */,
+			);
+			name = BlocBrowserUITests;
+			productName = BlocBrowserUITests;
+			productReference = 19D57F9F1CDE780500A6622C /* BlocBrowserUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		19D57F731CDE780400A6622C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = kevinthrailkill;
+				TargetAttributes = {
+					19D57F7A1CDE780400A6622C = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					19D57F931CDE780500A6622C = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 19D57F7A1CDE780400A6622C;
+					};
+					19D57F9E1CDE780500A6622C = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 19D57F7A1CDE780400A6622C;
+					};
+				};
+			};
+			buildConfigurationList = 19D57F761CDE780400A6622C /* Build configuration list for PBXProject "BlocBrowser" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 19D57F721CDE780400A6622C;
+			productRefGroup = 19D57F7C1CDE780400A6622C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				19D57F7A1CDE780400A6622C /* BlocBrowser */,
+				19D57F931CDE780500A6622C /* BlocBrowserTests */,
+				19D57F9E1CDE780500A6622C /* BlocBrowserUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		19D57F791CDE780400A6622C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19D57F8E1CDE780500A6622C /* LaunchScreen.storyboard in Resources */,
+				19D57F8B1CDE780500A6622C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19D57F921CDE780500A6622C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19D57F9D1CDE780500A6622C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		19D57F771CDE780400A6622C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19D57F861CDE780500A6622C /* ViewController.m in Sources */,
+				19D57F831CDE780500A6622C /* AppDelegate.m in Sources */,
+				19D57F801CDE780500A6622C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19D57F901CDE780500A6622C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19D57F991CDE780500A6622C /* BlocBrowserTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19D57F9B1CDE780500A6622C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19D57FA41CDE780500A6622C /* BlocBrowserUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		19D57F961CDE780500A6622C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 19D57F7A1CDE780400A6622C /* BlocBrowser */;
+			targetProxy = 19D57F951CDE780500A6622C /* PBXContainerItemProxy */;
+		};
+		19D57FA11CDE780500A6622C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 19D57F7A1CDE780400A6622C /* BlocBrowser */;
+			targetProxy = 19D57FA01CDE780500A6622C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		19D57F8C1CDE780500A6622C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				19D57F8D1CDE780500A6622C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		19D57FA61CDE780500A6622C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		19D57FA71CDE780500A6622C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		19D57FA91CDE780500A6622C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BlocBrowser/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kevinthrailkill.BlocBrowser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		19D57FAA1CDE780500A6622C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BlocBrowser/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kevinthrailkill.BlocBrowser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		19D57FAC1CDE780500A6622C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BlocBrowserTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kevinthrailkill.BlocBrowserTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BlocBrowser.app/BlocBrowser";
+			};
+			name = Debug;
+		};
+		19D57FAD1CDE780500A6622C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BlocBrowserTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kevinthrailkill.BlocBrowserTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BlocBrowser.app/BlocBrowser";
+			};
+			name = Release;
+		};
+		19D57FAF1CDE780500A6622C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BlocBrowserUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kevinthrailkill.BlocBrowserUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BlocBrowser;
+			};
+			name = Debug;
+		};
+		19D57FB01CDE780500A6622C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BlocBrowserUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kevinthrailkill.BlocBrowserUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BlocBrowser;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		19D57F761CDE780400A6622C /* Build configuration list for PBXProject "BlocBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19D57FA61CDE780500A6622C /* Debug */,
+				19D57FA71CDE780500A6622C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19D57FA81CDE780500A6622C /* Build configuration list for PBXNativeTarget "BlocBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19D57FA91CDE780500A6622C /* Debug */,
+				19D57FAA1CDE780500A6622C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		19D57FAB1CDE780500A6622C /* Build configuration list for PBXNativeTarget "BlocBrowserTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19D57FAC1CDE780500A6622C /* Debug */,
+				19D57FAD1CDE780500A6622C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		19D57FAE1CDE780500A6622C /* Build configuration list for PBXNativeTarget "BlocBrowserUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19D57FAF1CDE780500A6622C /* Debug */,
+				19D57FB01CDE780500A6622C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 19D57F731CDE780400A6622C /* Project object */;
+}
