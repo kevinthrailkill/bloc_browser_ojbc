@@ -209,6 +209,7 @@
 				TargetAttributes = {
 					19D57F7A1CDE780400A6622C = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = YUYDGGZ6SW;
 					};
 					19D57F931CDE780500A6622C = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -409,6 +410,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = BlocBrowser/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kevinthrailkill.BlocBrowser;
@@ -420,6 +422,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = BlocBrowser/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kevinthrailkill.BlocBrowser;
